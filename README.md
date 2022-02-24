@@ -4,7 +4,7 @@ React Hello é um projeto voltado para o aprendizado e aprofundamento dos conhec
 
 ## Conhecimento adquiridos
 
-Como a ideia do projeto é simplesmente adquirir conhecimento, ele será aletrado constantemente, nesse projeto iremos aprender :
+Como a ideia do projeto é simplesmente adquirir conhecimento, ele será aletrado constantemente, nesse projeto iremos aprender : <br>
 1 - Manipulação de estado com (useState)<br>
 2 - Criação de componentes funcionais <br>
 3 - React Hooks <br>
