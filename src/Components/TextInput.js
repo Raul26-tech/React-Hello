@@ -4,6 +4,8 @@ export default function TextInput({
   labelDescription = 'Descrição do label',
   inputValue = 'Valor padrão do input',
   onInputChange = null,
+  id = 'id_do_input_text',
+  autoFocus = false,
 }) {
   const handleInputChange = ({ currentTarget }) => {
     if (onInputChange) {
@@ -14,13 +16,13 @@ export default function TextInput({
 
   return (
     <div className="content">
-      <label htmlFor="inputName" style={{ margin: '30px 15px' }}>
+      <label htmlFor={id} style={{ margin: '30px 15px' }}>
         {labelDescription}
       </label>
 
       <input
-        autoFocus
-        id="inputName"
+        autoFocus={autoFocus}
+        id={id}
         type="text"
         style={{ padding: '2px', width: '300px' }}
         value={inputValue}
