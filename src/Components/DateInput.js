@@ -4,6 +4,8 @@ export default function DateInput({
   labelDescription = 'Descrição do label',
   inputValue = '2022-04-24',
   onInputChange = null,
+  id = 'id_do_input_date',
+  autoFocus,
 }) {
   const handleInputChange = ({ currentTarget }) => {
     if (onInputChange) {
@@ -14,13 +16,13 @@ export default function DateInput({
 
   return (
     <div className="content">
-      <label htmlFor="inputName" style={{ margin: '15px' }}>
+      <label htmlFor={id} style={{ margin: '15px' }}>
         {labelDescription}
       </label>
 
       <input
-        autoFocus
-        id="inputName"
+        autoFocus={autoFocus}
+        id={id}
         type="date"
         style={{ padding: '2px', marginBottom: '50px' }}
         value={inputValue}
