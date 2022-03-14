@@ -6,7 +6,7 @@
 }
 
 .welcome{
-    widht: 100vw;
+    width: 100vw;
     height: 10vh;
     background: #5262bc;
     color: #ffffff;
@@ -25,6 +25,14 @@
 
 .content{
     font-family:'Oswald', sans-serif;
-    font-size: 16px;
-    
+    font-size: 16px;   
+}
+
+.timer {
+    margin: 2.5em;
+    background: rgba(82, 97, 188, 0.5);
+    color: #ffffff;
+    padding: 2%;
+    margin-bottom: 15px;
+    border-radius:  15px;
 }
